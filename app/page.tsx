@@ -156,9 +156,9 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-neutral-100 dark:bg-neutral-900 p-4 font-[family-name:var(--font-geist-sans)] overflow-hidden">
       <h1 className="text-4xl font-bold text-neutral-800 dark:text-neutral-200 mb-8 fixed top-8 sm:top-12 z-20 bg-neutral-100/80 dark:bg-neutral-900/80 px-4 py-2 rounded-lg">Cat Swiper</h1>
-      <h3 className="text-xl font-bold text-neutral-800 dark:text-neutral-200 mb-8 fixed top-8 sm:top-12 z-20 bg-neutral-100/80 dark:bg-neutral-900/80 px-4 py-2 rounded-lg">By Zahren</h3>
-   
-      <div className="relative w-full max-w-xs aspect-[3/4] rounded-xl overflow-hidden shadow-xl mt-4 sm:mt-8 mb-8 flex items-center justify-center">
+      <h2 className="text-xl font-bold text-neutral-800 dark:text-neutral-200 mt-20">Swipe or click the button</h2>
+      <h3 className="text-xs text-neutral-800 dark:text-neutral-200 mt-2">By Zahren</h3>
+      <div className=" w-full max-w-xs aspect-[3/4] rounded-xl overflow-hidden shadow-xl mt-4 sm:mt-8 mb-8 flex items-center justify-center">
         <AnimatePresence initial={false}>
           {activeCard && (
             <SwipeCard
